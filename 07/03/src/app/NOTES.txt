@@ -1,0 +1,18 @@
+Steps :- 1 Create toggle butten in app.component.html file eg.
+
+
+<button (click)="toggleText()">Click Me</button>
+<p>{{ text }}</p>
+
+
+Steps :- 2 Create toggle butten fun in app.component.ts file eg.
+
+export class AppComponent {
+  title = 'app3';
+  text = 'Marvellous Infosystems';   
+
+
+  toggleText() {
+    this.text = this.text === 'Marvellous Infosystems' ? 'Educating for Better Tomorrow' : 'Marvellous Infosystems';
+}
+}
