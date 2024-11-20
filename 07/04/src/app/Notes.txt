@@ -1,0 +1,22 @@
+Step :-1 in html
+
+<button (click)="toUpper()">UPPER</button>
+<button (click)="toLower()">LOWER</button>
+<p>{{ text }}</p>
+
+Step :-2 in ts
+
+export class AppComponent {
+  title = 'app4';
+  text = 'Marvellous Infosystems';   
+
+
+  toUpper() {
+    this.text = this.text.toUpperCase();
+  }
+
+  toLower() {
+    this.text = this.text.toLowerCase();
+  }
+
+}
