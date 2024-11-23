@@ -35,3 +35,41 @@ transform(value: number, Param: string): number
 // return addition of value and Param
 }
 Similarly we can write logic for MyMult pipe also.
+
+3. Create angular application which creates one custom pipe named as MarvellousChk. This custom pipe accept one integer as a value and parameter can be Prime, Perfect, Even, Odd.
+Depends on the parameter we have to check status of the number and return the result accordingly.
+Example: No = 11;
+<<No | Even}}
+Output of the above statement should be "It is not Even"
+{<No | Prime}}
+Output of the above statement should be "It is Prime number"
+{{No | Prime}}
+Output of the above statement should be "It is not Perfect number"
+To solve this question please follow all the steps to create Custom pipe.
+Inside transform method depends on the parameter we have to write separate logic to check whether number is even or odd or prime or perfect.
+Consider below code snippet :
+import { Pipe, PipeTransform } from '@angular/core';
+@Pipe({name: 'MarvellousChk'})
+export class MarvellousChk implements PipeTransform
+{
+    transform(value: Number, Param: string): string
+    if(Param == "Prime")
+    {
+    // Logic to check whether value is prime or not.
+    }
+    if(Param == "Perfect")
+    {
+    // Logic to check whether value is Perfect or not.
+    }
+    if(Param == "Even")
+    {
+    // Logic to check whether value is Even or not.
+    }
+    if(Param == "Odd")
+    {
+        // Logic to check whether value is Odd or not.
+}
+}
+}
+Return the string which displays the
+    
