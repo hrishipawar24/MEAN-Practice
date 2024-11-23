@@ -1,0 +1,1 @@
+2. Create application which contains two components as app and Child. App component send "Hello form Parent" to the child component and Child component send "Hello from Child" to the app component ie app. In this application parent and child components communicate with each other by sending the data.
