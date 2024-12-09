@@ -2,7 +2,9 @@
 As we want to create our first application use below commands
 
 
-ng new MarvellousFirst cd MarvellousFirst
+ng new Marvellous
+
+First cd MarvellousFirst
 
 ng serve
 
