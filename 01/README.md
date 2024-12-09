@@ -1,4 +1,4 @@
-- 1. Write a typescript program which contains one function named as Maximum. That function accepts three parameters and it should returns largest value from three input parameters.
+1. Write a typescript program which contains one function named as Maximum. That function accepts three parameters and it should returns largest value from three input parameters.
 
 Input  : 23 89 6
 Output : Maximum number is 89
