@@ -14,10 +14,11 @@ http://localhost:4200
 "Marvellous Infosystems" on page. [MarvellousLabel].
 
 To do this remove whole code from app.component.html and write statements to add label and text field.
-
+![Output](https://github.com/hrishipawar24/MEAN-Practice/blob/main/04/00/03.png)
 
 4. Create Angular application which creates one Custom component named as Demo. Render that Demo component from app component.
 
 To do this use below command
 ng generate component Demo
 Add the selector of Demo component into app component.
+![Output](https://github.com/hrishipawar24/MEAN-Practice/blob/main/04/00/04.png)
