@@ -5,10 +5,10 @@ ng new MarvellousFirst
 cd MarvellousFirst
 ng serve
 http://localhost:4200
-
+![Output](https://github.com/hrishipawar24/MEAN-Practice/blob/main/04/00/01.png)
 
 2. Create Angular application which will display "Welcome to Marvellous Infosystem's First Application!" on page. [MarvellousFirstApp].
-
+![Output](https://github.com/hrishipawar24/MEAN-Practice/blob/main/04/00/02.png)
 
 3. Create Angular application which will display one textfield and one static text
 "Marvellous Infosystems" on page. [MarvellousLabel].
