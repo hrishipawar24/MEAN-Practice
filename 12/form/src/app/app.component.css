@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Equal width columns */
+}
+  
+.responsive-image {
+    max-width: 50%;
+    height: auto;
+  }
+
+  
